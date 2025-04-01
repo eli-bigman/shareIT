@@ -66,13 +66,13 @@ npm install
 3. Generate security keys and create environment file:
 ```bash
 # Generate secure keys and create .env.template
-node scripts/generateKeys.js
+node backend/scripts/generateKeys.js
 
 # Copy the template to .env
 # On Windows:
-copy .env.template .env
+copy backend/.env.template backend/.env
 # On Linux/Mac:
-cp .env.template .env
+cp backend/.env.template backend/.env
 ```
 
 The `generateKeys.js` script will:
