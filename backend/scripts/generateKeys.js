@@ -29,6 +29,6 @@ console.log('\x1b[33m%s\x1b[0m', 'Copy .env.template to .env to use these keys')
 
 // Write to .env.template
 const fs = require('fs');
-fs.writeFileSync('.env.template', envContent);
+fs.writeFileSync('backend/.env.template', envContent);
 
 console.log('\x1b[32m%s\x1b[0m', '\nKey generation completed successfully!'); 
